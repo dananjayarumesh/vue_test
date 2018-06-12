@@ -111,11 +111,15 @@
 				</div>
 				<hr>
 				<div id="app-twoWay-dataBinding">
-					<h1 style="text-decoration: underline;">Keyboard Events</h1>
-					<label>Name</label>
-					<input type="text" name="" @keyup.enter="nameEnter">
-					<label>Age</label>
-					<input type="text" name="" @keyup.alt.enter="ageEnter">
+					<h1 style="text-decoration: underline;">Two-Way Data Binding</h1>
+					<label>Name: {{name}}</label><br>
+					<input type="text" name="" @keyup.enter="nameEnter" v-model="name">
+				</div>
+				<hr>
+				<div id="app-Computed-Properties">
+					<h1 style="text-decoration: underline;">Computed Properties</h1>
+					<label>Name: {{name}}</label><br>
+					<input type="text" name="" @keyup.enter="nameEnter" v-model="name">
 				</div>
 				<hr>
 			</div>

@@ -84,19 +84,13 @@ new Vue({
 		}
 	} 
 })
+
 new Vue({
 	el: '#app-twoWay-dataBinding',
 	data: {
-		
+		name: 'text'
 	},
 	methods:{
-		nameEnter: function(e){
-			console.log(this);
-			alert('You entered name');
-		},
-		ageEnter: function(e){
-			console.log(this);
-			alert('You entered age');
-		}
+
 	} 
 })
